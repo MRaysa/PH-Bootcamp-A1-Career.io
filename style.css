@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Comic+Relief:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Agbalumo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background: linear-gradient(135deg, #b9ddff 0%, #a8c6ff 100%);
+  color: #222;
+  line-height: 1.5;
+  min-height: 100vh;
+}
