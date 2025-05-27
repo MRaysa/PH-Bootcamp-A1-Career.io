@@ -285,3 +285,74 @@ footer {
 .social-icons a:hover {
   color: #f7b536;
 }
+
+@media (max-width: 768px) {
+  .info-section {
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .info-text,
+  .info-image {
+    width: 100%;
+  }
+
+  .cards {
+    gap: 20px;
+  }
+
+  .container-footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 15px 20px;
+  }
+
+  .container,
+  .info-section,
+  .inspiration-section,
+  .current-target {
+    margin: 20px auto;
+    padding: 25px;
+  }
+
+  .container h1 {
+    font-size: 1.6rem;
+  }
+
+  .card {
+    width: 150px;
+    padding: 20px 15px;
+  }
+
+  footer {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container,
+  .info-section,
+  .inspiration-section,
+  .current-target {
+    padding: 20px 15px;
+  }
+
+  .container h1 {
+    font-size: 1.4rem;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .inspiration-section iframe {
+    height: 250px;
+  }
+}
