@@ -4,7 +4,7 @@
 [![GitHub License](https://img.shields.io/github/license/MRaysa/PH-Bootcamp-A1-Career.io?style=for-the-badge)](LICENSE)
 
 <div align="center">
-  <img src="./assets/portfolio-screenshot.png" alt="Career.io Screenshot" width="800">
+  <img src="./assets/portfolio-screenshot.png.jpg" alt="Career.io Screenshot" width="800">
   <p><em>Full portfolio screenshot showcasing all sections</em></p>
 </div>
 
