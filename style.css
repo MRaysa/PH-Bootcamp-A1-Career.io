@@ -15,3 +15,49 @@ body {
   line-height: 1.5;
   min-height: 100vh;
 }
+
+header {
+  background-color: #f0f6fa;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  color: #222;
+}
+
+.logo span {
+  color: #f7b536;
+  font-weight: 900;
+}
+
+.btn-resume {
+  background: linear-gradient(90deg, #f7b536 0%, #fab93e 100%);
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  color: #222;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(247, 181, 54, 0.4);
+  transition: background 0.3s ease;
+}
+
+.btn-resume:hover {
+  background: linear-gradient(90deg, #5d3efa 0%, #f7b536 100%);
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #e6ecfb;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
